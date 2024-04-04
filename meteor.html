@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="meteor.css">
+</head>
+<body class="vh-100">
+  <section class="float-left w-100 h-75 part-one d-flex flex-column" id="bannerPart">
+    <header class="navbar navbar-expand-lg">
+      <div class="container-lg container-fluid px-lg-5">
+          <a href="#" class="navbar-brand ms-lg-5">
+            <img src="images/white_logo.png" alt="white_logo" class="col-10"/>
+          </a>
+          <button class="navbar-toggler shadow-none border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidePanel">
+              <span class="navbar-toggler-icon fs-6 navbar-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" style="fill: white;"/></svg>
+              </span>
+          </button>
+          <div class="offcanvas offcanvas-end me-lg-5" id="sidePanel">
+            <div class="offcanvas-header">
+                <span class="offcanvas-title poppins-bold h5 text-white">Meteor menu</span>
+                <button class="btn-close btn-close-white fw-bold h6 border-0 shadow-none" type="button" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body justify-content-end">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item"><a href="" class="nav-link text-white poppins-light">HOME</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white poppins-light">ABOUT US</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white poppins-light">PORTFOLIO</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white poppins-light">BLOG</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white poppins-light">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>      
+    </header>
+    <section class="container flex-fill d-flex align-items-center justify-content-center">
+      <div class="text-white d-flex flex-column align-items-center col-lg-5 col-7 px-5 pb-5 mb-2">
+        <label for="" class="design-hobby text-nowrap">DESIGN IS A HOBBY</label>
+        <h2 class="poppins-bold mt-1 mb-4 text-nowrap">RESPONSIVE LAYOUT</h2>
+        <span class="text-center lorem-text mx-1">Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque quis luctus tempus. Vestibulum consequat.</span>
+        <button type="button" class="btn rounded-pill poppins-medium vw-dtl mt-4 text-white text-nowrap" id="viewBtn">VIEW DETAILS</button>
+      </div>
+    </section>
+  </section>
+  <section class="float-left w-100 part-two py-5">
+    <div class="float-left container-lg container-fluid d-flex flex-column">
+      <h6 class="text-center position-relative poppins-bold mb-5">WHAT WE DO
+        <span class="border border-3 border-dark position-absolute top-100 start-50 mt-3 translate-middle-x tlt-border"></span>
+      </h6>
+      <div class="w-100 h-25 d-flex gap-4 align-items-center justify-content-center flex-wrap mt-3 mb-5">
+        <div class="card text-center border-0 rounded-0 card-col">
+          <div class="card-body d-flex flex-column align-items-center gap-3 py-4">
+            <img src="images/first-service-main.png" alt="first-service-main" class="my-2 default-images" width="30px">
+            <img src="images/first-service-white.png" alt="first-service-white" class="my-2 hover-images" width="30px">
+            <h6 class="card-title poppins-bold m-0 text-nowrap">Easy Customizations</h6>
+            <p class="card-text poppins-light text-center mb-3">Meteor is free HTML website template by Tooplate. Feel free to use this layout for your project.</p>
+          </div>
+        </div>
+
+        <div class="card text-center border-0 rounded-0 card-col">
+          <div class="card-body d-flex flex-column align-items-center gap-3 py-4">
+            <img src="images/second-service-main.png" alt="second-service-main" class="my-2 default-images" height="30px">
+            <img src="images/second-service-white.png" alt="second-service-white" class="my-2 hover-images" height="30px">
+            <h6 class="card-title poppins-bold m-0 text-nowrap">Creative Ideas</h6>
+            <p class="card-text poppins-light text-center mb-3">Biodiesel scltz suculents phone cliche ramps snackave coloring book tumeric poke, typewriter.</p>
+          </div>
+        </div>
+
+        <div class="card text-center border-0 rounded-0 card-col">
+          <div class="card-body d-flex flex-column align-items-center gap-3 py-4">
+            <img src="images/third-service-main.png" alt="third-service-main" class="my-2 default-images" width="30px">
+            <img src="images/third-service-white.png" alt="third-service-white" class="my-2 hover-images" width="30px">
+            <h6 class="card-title poppins-bold m-0 text-nowrap">Good Profit</h6>
+            <p class="card-text poppins-light text-center mb-3">Biodiesel scltz suculents phone cliche ramps snackave coloring book tumeric poke, typewriter.</p>
+          </div>
+        </div>
+
+        <div class="card text-center border-0 rounded-0 card-col">
+          <div class="card-body d-flex flex-column align-items-center gap-3 py-4">
+            <img src="images/fourth-service-main.png" alt="fourth-service-main" class="my-2 default-images" width="30px">
+            <img src="images/fourth-service-white.png" alt="fourth-service-white" class="my-2 hover-images" width="30px">
+            <h6 class="card-title poppins-bold m-0 text-nowrap">Open To Public</h6>
+            <p class="card-text poppins-light text-center mb-3">Biodiesel scltz suculents phone cliche ramps snackave coloring book tumeric poke, typewriter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <section class="float-left w-100 part-three py-5">
+    <div class="float-left container-lg container-fluid d-flex flex-column px-5">
+      <div class="d-flex flex-column px-0 px-sm-5 px-xl-0 px-xxl-5">
+        <h6 class="text-center position-relative poppins-bold mb-5 text-white px-5">OUR BLOG POSTS
+          <span class="border border-3 border-white position-absolute top-100 start-50 mt-3 translate-middle-x tlt-border"></span>
+        </h6>
+        <div class="w-100 h-25 mt-3 mb-5 blog-grid px-0 px-md-5 px-lg-0 px-xxl-5">
+          <div class="w-100 bg-primary overflow-hidden position-relative blog-boxes">
+            <img src="images/blog_01.jpg" alt="blog_01" class="float-left h-100 w-100">
+            <div class="w-100 position-absolute bottom-0 start-0 bg-dark bg-opacity-75 p-3 d-flex flex-column gap-1 blog-info">
+              <label class="poppins-semibold m-0 text-nowrap text-white blog-name text-nowrap">Delecioius Food Served</label>
+              <div class="d-flex text-white blog-details">
+                <span class="poppins-extralight text-nowrap">Posted : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">George</span>
+                <span class="poppins-extralight text-nowrap">/ Date : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">11 Aug 2017</span>
+                <span class="poppins-extralight text-nowrap">/ Category : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">Design</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 bg-primary overflow-hidden position-relative blog-boxes">
+            <img src="images/blog_02.jpg" alt="blog_02" class="float-left h-100 w-100">
+            <div class="w-100 position-absolute bottom-0 start-0 bg-dark bg-opacity-75 p-3 d-flex flex-column gap-1 blog-info">
+              <label class="poppins-semibold m-0 text-nowrap text-white blog-name text-nowrap">Crative & Clean Workspace</label>
+              <div class="d-flex text-white blog-details">
+                <span class="poppins-extralight text-nowrap">Posted : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">Kerley</span>
+                <span class="poppins-extralight text-nowrap">/ Date : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">24 Jul 2017</span>
+                <span class="poppins-extralight text-nowrap">/ Category : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">Artwork</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 bg-primary overflow-hidden position-relative blog-boxes">
+            <img src="images/blog_03.jpg" alt="blog_03" class="float-left h-100 w-100">
+            <div class="w-100 position-absolute bottom-0 start-0 bg-dark bg-opacity-75 p-3 d-flex flex-column gap-1 blog-info">
+              <label class="poppins-semibold m-0 text-nowrap text-white blog-name text-nowrap">Crashed Plane Captured</label>
+              <div class="d-flex text-white blog-details">
+                <span class="poppins-extralight text-nowrap">Posted : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">Johnny</span>
+                <span class="poppins-extralight text-nowrap">/ Date : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">16 Jul 2017</span>
+                <span class="poppins-extralight text-nowrap">/ Category : </span>
+                <span class="ms-1 me-2 poppins-regular text-nowrap">Branding</span>
+              </div>
+            </div>
+          </div>
+      </div>      
+      </div>
+    </div>
+    
+  </section>
+  <section class="float-left w-100 part-four py-3">
+    <div class="float-left container-lg container-fluid d-flex flex-column">
+      <div class="w-100 h-25 d-flex gap-4 align-items-center justify-content-center flex-wrap my-5">
+        <div id="regularVisitors">
+          <div class="card text-center border-0 rounded-0 card-box">
+            <div class="card-body d-flex flex-column align-items-center gap-2 py-4">
+              <h5 class="poppins-semibold m-0 text-nowrap card-box-number">926</h5>
+              <p class="card-text poppins-medium text-center text-secondary">REGULAR VISITORS</p>
+            </div>
+          </div>
+        </div>
+        <div id="finishedProjects">
+        </div>
+        <div id="happyClients">
+          <div class="card text-center border-0 rounded-0 card-box">
+            <div class="card-body d-flex flex-column align-items-center gap-2 py-4">
+              <h5 class="poppins-semibold m-0 text-nowrap card-box-number">118</h5>
+              <p class="card-text poppins-medium text-center text-secondary">HAPPY CLIENTS</p>
+            </div>
+          </div>  
+        </div>
+        <div id="totalAwards">
+        </div>        
+      </div>
+    </div>    
+  </section>
+  <div class="position-fixed bottom-0 end-0 m-3 rounded-circle bg-success d-flex align-items-center justify-content-center top-btn" id="scrollToTop">
+    <i class="fa-solid fa-angle-up fa-beat-fade h5 m-0 text-white"></i>
+  </div>
+  <footer class="float-left w-100 part-five py-5 bg-dark">
+    <div class="float-left container-lg container-fluid px-5">
+      <div class="float-left w-100 d-flex align-items-center justify-content-between px-5 px-xl-0 px-xxl-5 foot-infos">
+        <label for="" class="text-white copy-rights poppins-light ms-xxl-5 text-nowrap">Copyrights &copy; 2017 Company Name - Design: <span class="tooplate">Tooplate</span></label>
+        <div class="d-flex align-items-center justify-content-center gap-2 me-xxl-5">
+          <a href="" class="btn d-flex align-items-center justify-content-center rounded-circle foot-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="" class="btn d-flex align-items-center justify-content-center rounded-circle foot-icons">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="" class="btn d-flex align-items-center justify-content-center rounded-circle foot-icons">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="" class="btn d-flex align-items-center justify-content-center rounded-circle foot-icons">
+            <i class="fa-solid fa-wifi rotate-wifi fw-bold"></i>
+          </a>
+          <a href="" class="btn d-flex align-items-center justify-content-center rounded-circle foot-icons">
+            <i class="fa-brands fa-dribbble"></i>
+          </a>
+        </div>
+      </div>      
+    </div>    
+  </footer>
+
+    <script src="meteor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
